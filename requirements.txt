@@ -1,0 +1,20 @@
+# This file is used to install the required packages for the project.
+# It is recommended to use a virtual environment to avoid conflicts with other projects.
+# You can create a virtual environment using the following command:
+# python -m venv venv
+# Then activate the virtual environment using the following command:
+# Windows: venv\Scripts\activate
+# Linux/Mac: source venv/bin/activate
+# After activating the virtual environment, you can install the required packages using the following command:
+# pip install -r requirements.txt
+# If you are using Jupyter Notebook, you can install the required packages using the following command:
+# !pip install -r requirements.txt
+# If you are using Anaconda, you can create a new environment using the following command:
+pandas>=1.5.3
+numpy>=1.23.5
+matplotlib>=3.6.2
+seaborn>=0.12.2
+plotly>=5.11.0
+nltk>=3.8.1
+scikit-learn>=1.0.2
+streamlit>=1.22.0
